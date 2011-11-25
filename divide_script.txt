@@ -1,0 +1,5 @@
+reset
+load divide
+set PC 0
+set R0 15
+set R1 3

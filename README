@@ -1,0 +1,22 @@
+Max Guo
+November 25, 2011
+LC4 Emulator
+
+TODO: - CMPU and CMPIU do not work as intended
+      - LDR and STR can read and write to code segments
+      - 32-bit printf negative
+      - doesn't quit if in script
+      - segfaults on empty input (if user just presses Enter)
+
+USAGE: - compiled using gcc Emulator.c -o Emulator
+       
+       - look at the included html files to see how the original PennSim
+             works, this is to emulate PennSim
+       - the load command is "ld" in PennSim, but "load" for this emulator
+
+       - many times it will say
+             "Error: attempting to access memory outside of code"
+             when the continue command is issued, this is NOT a bug as
+             PennSim would also give an error, HOWEVER if PennSim DOES NOT
+             give an error when the emulator DOES, then that IS a bug as
+             the emulator should mimic PennSim

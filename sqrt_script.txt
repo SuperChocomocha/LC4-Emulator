@@ -1,0 +1,4 @@
+reset
+load sqrt
+set PC 0
+set R0 36

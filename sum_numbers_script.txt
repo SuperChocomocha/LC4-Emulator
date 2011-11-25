@@ -1,0 +1,3 @@
+reset
+load sum_numbers
+set PC 0

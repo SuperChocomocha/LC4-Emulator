@@ -1,0 +1,3 @@
+reset
+load os
+load SpaceInvaders2

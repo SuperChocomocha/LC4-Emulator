@@ -1,0 +1,5 @@
+reset
+load multiply
+set PC 0
+set R0 5
+set R1 3
