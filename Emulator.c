@@ -15,8 +15,12 @@
 /*------------------------------------------------------------------------------
  * USAGE: - compiled using gcc Emulator.c -o Emulator
  *        
- *        - look at the included html files to see how the original PennSim
- *              works, this is to emulate PennSim
+ *        - look at
+ *              http://www.cis.upenn.edu/~milom/cse240-Fall06/pennsim/pennsim-dist.html
+ *              http://www.cis.upenn.edu/~milom/cse240-Fall06/pennsim/pennsim-guide.html
+ *              http://www.cis.upenn.edu/~milom/cse240-Fall06/pennsim/pennsim-manual.html
+ *
+ *              to see how the original PennSim works
  *
  *        - the load command is "ld" in PennSim, but "load" for this emulator
  *
