@@ -2,7 +2,9 @@ Max Guo
 November 25, 2011
 LC4 Emulator
 
-TODO: - CMPU and CMPIU do not work as intended
+TODO: - CMPU and CMPIU do not work as intended: FIXED, line 49, (I >> 7) & 3
+            instead of (I >> 7) & 2, thanks to Andrew Staniforth for
+            catching the error
       - LDR and STR can read and write to code segments
       - 32-bit printf negative
       - doesn't quit if in script
