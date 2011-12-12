@@ -46,7 +46,7 @@
 #define PARSE_BRANCH_CONST_IMM(I) ((I) & 511) /* parsing branch and CONST imm */
 #define PARSE_ARITH_LOGIC_IMM_SOP(I) (((I) >> 5) & 1) /* parsing arithmetic and logic operations */
 #define PARSE_ARITH_LOGIC_IMM(I) ((I) & 31)
-#define PARSE_CMP_SOP(I) (((I) >> 7) & 2) /* parsing compare operations */
+#define PARSE_CMP_SOP(I) (((I) >> 7) & 3) /* parsing compare operations */
 #define PARSE_CMP_IMM(I) ((I) & 127)
 #define PARSE_6(I) ((I) & 63) /* parsing load store */
 #define PARSE_8(I) ((I) & 255) /* parsing HICONST */
